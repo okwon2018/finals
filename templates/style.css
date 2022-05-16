@@ -1,0 +1,85 @@
+#bg {
+    background-color: silver;
+    font-size: 1.5em;
+}
+
+#pagesBg {
+    height: auto;
+    width: auto;
+    border: 0.7rem ridge blue;
+    height: 50em;
+    margin-left: 2px;
+    margin-top: 12px;
+    text-align: center;
+}
+#list {
+    background-color: white;
+    border-style: ridge;
+    border-width: thick;
+    width: auto;
+    margin-left: 7.5em;
+    margin-right: 7.5em;
+    padding: 15px;
+}
+#listData {
+    background-color: white;
+    border-style: ridge;
+    border-width: thick;
+    width: 35%;
+    margin-left: 7.5em;
+    margin-right: 7.5em;
+    padding: 15px;
+
+}
+h1 {
+    color: white;
+    background-color: black;
+    font-size: 2rem;
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 20px;
+    position: center;
+}
+#removeB {
+    background-color: #eed202;
+    /*warning yellow*/
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+#buttons {
+    background-color: #eed202;
+    /*warning yellow*/
+    color: black;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+}
+.button {
+    background-color: hsl(198, 98%, 47%);
+    /*warning yellow*/
+    color: black;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/*all text that direct to another page will be this color*/
+a {
+    color: brown;
+}
+
+/*all visited pages will change color to this*/
+a:visited {
+    color: blue;
+}
+
+/*when the cursor is on top of a link it will change font sizes*/
+a:hover {
+    font-size: 1.6rem;
+}
